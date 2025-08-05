@@ -172,21 +172,11 @@ Follow these steps to run the project from your favorite Java IDE:
 
 4️⃣ **Explore the In-Memory Database**
 - 🗃️ H2 Console: [http://localhost:8090/h2-console](http://localhost:8090/h2-console)
-- JDBC URL: `jdbc:h2:mem:nearme-db`
 - Username: `sa`, Password: _(leave blank)_
 
 5️⃣ **Test APIs Visually**
 - 📘 Swagger UI: [http://localhost:8090/swagger-ui.html](http://localhost:8090/swagger-ui.html)
-- Interactively test endpoints, see sample requests & responses
 
-6️⃣ **Use Postman to Test APIs**
-- 🔁 Use provided sample JSON to test `/api/places/search`
-- 🔍 For Natural Language Search (if implemented):
-    - Endpoint: `POST /api/places/nl-search`
-    - Body:
-      ```json
-      { "query": "cafes within 2 km" }
-      ```
 ---
 
 ## 👨‍💻 Author
